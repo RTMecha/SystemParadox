@@ -1,0 +1,40 @@
+{
+	"name": "Endgame Right Panel",
+	"render_type": "bedrock",
+	"hidden_parts": [],
+	"render_data" : {
+		"format_version": "1.12.0",
+		"minecraft:geometry": [
+			{
+				"description": {
+					"identifier": "geometry.steve",
+					"texture_width": 64,
+					"texture_height": 32,
+					"visible_bounds_width": 3,
+					"visible_bounds_height": 2.5,
+					"visible_bounds_offset": [0, 0.75, 0]
+				},
+				"bones": [
+					{
+						"name": "right_arm",
+						"pivot": [-5, 22, 0],
+						"cubes": [
+							{"origin": [-10, 2, -5], "size": [2, 20, 10], "uv": [0, 0], "mirror": true}
+						]
+					}
+				]
+			}
+		]
+	},
+	"texture": "moreplayermodels:textures/endgame_panel.png",
+	"body_part": "arms",
+	"menu": "part.arms",
+	"animation_type": "arms",
+	"preview_rotation": 315,
+	"translate": [-2, 2 ,0],
+	"scale": [0.7, 0.7, 0.7],
+	"rotate_offset": [0, 0, 0.0],
+	"rotate": [0.0, 0, 0.0],
+	"can_use_player_skin" : false,
+	"author": "MCMecha"
+}
