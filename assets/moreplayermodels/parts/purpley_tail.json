@@ -1,57 +1,57 @@
 {
-	"name": "part.tail",
+	"name": "Purpley Tail",
 	"render_type": "bedrock",
 	"render_data" : {
-	"format_version": "1.12.0",
-	"minecraft:geometry": [
-		{
-			"description": {
-				"identifier": "geometry.steve",
-				"texture_width": 64,
-				"texture_height": 64,
-				"visible_bounds_width": 5,
-				"visible_bounds_height": 3.5,
-				"visible_bounds_offset": [0, 1.25, 0]
-			},
-			"bones": [
-				{
-					"name": "tail",
-					"pivot": [0, 15, 2],
-					"rotation": [-35, 0, 0],
-					"cubes": [
-						{"origin": [-1, 14, 2], "size": [2, 2, 5], "uv": [0, 0]}
-					]
+		"format_version": "1.12.0",
+		"minecraft:geometry": [
+			{
+				"description": {
+					"identifier": "geometry.steve",
+					"texture_width": 64,
+					"texture_height": 64,
+					"visible_bounds_width": 5,
+					"visible_bounds_height": 3.5,
+					"visible_bounds_offset": [0, 1.25, 0]
 				},
-				{
-					"name": "tail2",
-					"parent": "tail",
-					"pivot": [0, 15, 7],
-					"rotation": [30, 0, 0],
-					"cubes": [
-						{"origin": [-2.5, 12.25, 6], "size": [5, 5, 10], "uv": [0, 7]}
-					]
-				},
-				{
-					"name": "tail3",
-					"parent": "tail2",
-					"pivot": [0, 15, 14],
-					"rotation": [22.5, 0, 0],
-					"cubes": [
-						{"origin": [-1.5, 13.25, 16], "size": [3, 3, 5], "uv": [20, 0]}
-					]
-				}
-			]
-		}
-	]
+				"bones": [
+					{
+						"name": "tail",
+						"pivot": [0, 15, 2],
+						"rotation": [-35, 0, 0],
+						"cubes": [
+							{"origin": [-1, 14, 2], "size": [2, 2, 5], "uv": [0, 0]}
+						]
+					},
+					{
+						"name": "tail2",
+						"parent": "tail",
+						"pivot": [0, 15, 7],
+						"rotation": [30, 0, 0],
+						"cubes": [
+							{"origin": [-2.5, 12.25, 6], "size": [5, 5, 10], "uv": [0, 7]}
+						]
+					},
+					{
+						"name": "tail3",
+						"parent": "tail2",
+						"pivot": [0, 15, 14],
+						"rotation": [22.5, 0, 0],
+						"cubes": [
+							{"origin": [-1.5, 13.25, 16], "size": [3, 3, 5], "uv": [20, 0]}
+						]
+					}
+				]
+			}
+		]
 	},
 	"texture": "moreplayermodels:textures/purpley_tail.png",
 	"body_part": "body",
 	"menu": "part.tail",
 	"animation_inherit": "tails",
 	"preview_rotation": 135,
-	"translate": [0, 0, 0],
+	"translate": [0, 24, 0],
 	"scale": [1.0, 1.0, 1.0],
 	"rotate_offset": [0, 0.0, 0.0],
 	"rotate": [0.0, 0, 0.0],
-	"author": "Noppes"
+	"author": "MCMecha"
 }

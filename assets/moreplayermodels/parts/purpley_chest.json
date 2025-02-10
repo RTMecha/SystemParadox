@@ -1,8 +1,8 @@
 {
-	"name": "part.breasts",
+	"name": "Purpley Chest",
 	"render_type": "bedrock",
 	"hidden_parts": [],
-	"render_data": {
+	"render_data" : {
 		"format_version": "1.12.0",
 		"minecraft:geometry": [
 			{
@@ -17,12 +17,12 @@
 				"bones": [
 					{
 						"name": "chest",
-						"pivot": [3, 32, 0],
-						"rotation": [49.4425, -32.89404, 5.44508],
+						"pivot": [0, 0, 0],
+						"rotation": [0, 0, 0],
 						"cubes": [
 							{"origin": [-4, 19.75, -3], "size": [8, 4, 2], "pivot": [0, 19.75, -2], "rotation": [-15, 0, 0], "uv": [0, 0]}
 						]
-					},
+					}
 				]
 			}
 		]
@@ -31,9 +31,9 @@
 	"body_part": "body",
 	"menu": "part.body",
 	"preview_rotation": -45,
-	"translate": [0, 0.0, 0.0],
+	"translate": [0, 24.5, 0.0],
 	"scale": [1.0, 1.0, 1.0],
 	"rotate_offset": [0, 0, 0],
 	"rotate": [0.0, 0, 0.0],
-	"author": "Noppes"
+	"author": "MCMecha"
 }
