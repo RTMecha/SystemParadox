@@ -28,7 +28,7 @@
 	},
 	"texture": "moreplayermodels:textures/endgame_panel.png",
 	"body_part": "arms",
-	"menu": "part.arms",
+	"menu": "Character Parts",
 	"animation_type": "arms",
 	"preview_rotation": 315,
 	"translate": [-2, 2 ,0],

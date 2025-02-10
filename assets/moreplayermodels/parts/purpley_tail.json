@@ -46,7 +46,7 @@
 	},
 	"texture": "moreplayermodels:textures/purpley_tail.png",
 	"body_part": "body",
-	"menu": "part.tail",
+	"menu": "Character Parts",
 	"animation_inherit": "tails",
 	"preview_rotation": 135,
 	"translate": [0, 24, 0],

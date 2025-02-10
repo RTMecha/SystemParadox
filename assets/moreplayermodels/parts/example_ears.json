@@ -45,7 +45,7 @@
 	},
 	"texture": "moreplayermodels:textures/example_ears.png",
 	"body_part": "head",
-	"menu": "part.head",
+	"menu": "Character Parts",
 	"animation_inherit" : "legs",
 	"preview_rotation": 315,
 	"translate": [0, 12, 0],
